@@ -16,3 +16,39 @@ h2 {
 blockquote {
     font-style: italic;
 }
+table {
+    margin-left: 20px; /* задаем отступ слева */
+    margin-right: 20px; /* задаем отступ справа */
+    border: thin solid black; /* добавляем черные тонкие границы */
+    caption-side: bottom; /* перемещаем заголовок вниз под таблицу */
+    border-spacing: 0pх; /* ширина промежутков между границами 0 */
+    border-collapse: collapse; /* вокруг каждой ячейки нарисована одинарная граница */
+}
+td, th {
+    border: thin dotted gray; /* добавлем серые разделения столбцов и строк */
+    padding: 5px; /* добавляем отступ для ячеек чтобы между границей и содержимым было свободное место */
+}
+caption {
+    font-style: italic; /* задаем стиль курсивный */
+    padding-top: 8px; /* добавляем отступ сверху */
+}
+.center { 
+    text-align: center;  /* для класса выравнимем текст по центру */
+}
+.right {
+    text-align: right; /* для класса выравнимем текст справа */
+}
+th {
+    background-color: #cc6600; /* для класса заголовка задем цвет */
+}
+tr:nth-child(odd) {
+    background-color: #fcba7a; /* задаем цвет для нечетных строк even для четных */
+}
+table table th {
+    background-color: white;
+}
+li {
+    list-style-image: url(/images/backpack.gif); /* добавляем вместо пунктов в список изображение */
+    padding-top: 5px; /* отступ каждого пункта */
+    margin-left: 20px; /* отодвигаем в право */
+}
